@@ -112,6 +112,5 @@ Have questions or feedback? Reach out to us at:
 - **GitHub:** [@Ayelis](https://github.com/Ayelis)
 - **Email:** s.mattison@gmail.com
 - **BSky:** [@Ayelis](https://bsky.app/profile/ayelis.bsky.social)
-- **LinkedIn:** [@Ayelis](https://www.linkedin.com/in/smattison/)
+- **LinkedIn:** [@smattison](https://www.linkedin.com/in/smattison/)
 - **Twitter:** [@Ayelis](https://twitter.com/Ayelis)
-- **Website:** [iseekyou.app](https://iseekyou.app)
