@@ -8,13 +8,13 @@
 ---
 
 ## **Features**
-- **User Accounts:** Create an account and log in securely.
-- **Real-Time Messaging:** Send and receive messages instantly.
-- **Contact Management:** Add friends by unique ID or search by name/email.
-- **Typing Indicators:** See when your contacts are typing.
-- **File Sharing:** Send and receive files (images, documents, audio snippets).
-- **Customizable UI:** Light/dark themes and skinned windows.
 - **Decentralized:** Built with privacy and user control in mind.
+- **Real-Time Messaging:** Send and receive messages instantly.
+- **User Accounts:** Create an account and log in securely. (Coming in v0.04)
+- **Typing Indicators:** See when your contacts are typing. (Coming in v0.175)
+- **Contact Management:** Add friends by unique ID or search by name/email. (Coming in v0.3)
+- **File Sharing:** Send and receive files (images, documents, audio snippets). (Coming in v0.4)
+- **Customizable UI:** Light/dark themes and skinned windows. (Coming in v0.5)
 
 ---
 
