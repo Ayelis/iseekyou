@@ -3,7 +3,7 @@
 #### **Version 0.1.0: MVP (Minimum Viable Product)**
 - **Core Features:**
   1. **User Accounts:** Allow users to sign up and log in with a username and password.
-  2. **Add Contacts by ID:** Users can add contacts by entering a unique ID (like ICQ numbers).
+  2. **Add Contacts by ID:** Users can add contacts by entering a unique ID.
   3. **Real-Time Messaging:** Send and receive text messages in real time.
   4. **Online Status:** Show when a user is online or offline.
   5. **Basic UI:** A simple, functional interface for messaging and contact management.
@@ -45,7 +45,7 @@
 
 #### **Version 0.6.0: Number Reservations**
 - **New Features:**
-  1. **Unique Numbers:** Assign each user a unique number (like ICQ numbers).
+  1. **Unique Numbers:** Assign each user a unique number.
   2. **Number Reservations:** Allow users to claim a specific number if it’s available.
   3. **Number Search:** Let users search for contacts by their unique number.
 
@@ -80,7 +80,7 @@
   1. **Beta Testing:** Invite a small group of users to test the app and provide feedback.
   2. **Bug Fixes:** Address any issues found during beta testing.
   3. **Documentation:** Write user guides and developer documentation.
-  4. **Marketing:** Launch the app with a website, social media presence, and maybe even a nostalgic ICQ-inspired ad campaign.
+  4. **Marketing:** Launch the app with a website, social media presence, and maybe even a nostalgic ad campaign.
 
 ---
 
