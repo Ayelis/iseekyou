@@ -1,0 +1,96 @@
+html,body,#root{
+  width:100%;
+  height:100%;
+}
+body{
+	margin:0px auto;
+}
+.titlebar {
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  height: 30px;
+  background-color: #000066;
+  padding: 0 10px;
+  font-weight:bold;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.retro-window{
+  height:calc(100% - 30px);
+}
+.title{
+  flex-shrink:0;
+}
+.group-title {
+  display: flex; /* Crucial for flex children */
+  align-items: center; /* Vertically center the dividers */
+  gap: 8px; /* Space between dividers and text */
+  margin: 12px 0 4px 0; /* Spacing around the group */
+}
+.group-title::before,
+.group-title::after {
+  content: '';
+  flex: 1; /* Grow to fill space */
+  height: 2px; /* Thinner = more 90s */
+  background: #aaa; /* Classic gray */
+  border: none; /* Override default <hr> styles */
+}
+.buttons {
+  display: flex;
+}
+.button{
+  -webkit-app-region: no-drag;
+  margin-left: 6px;
+  background:#C0C0C0;
+  border-width:1px;
+  border-color:#FFFFFF #808080 #808080 #FFFFFF;
+  font-weight:bold;
+  font-family:Tahoma;
+  cursor: pointer;  
+}
+/* Status Colors */
+.contact-panel {
+  margin:5px;
+  margin-bottom:-10px;
+  padding:5px;
+  width:calc(100% - 22px);
+  height:calc(100% - 22px);
+  border:1px solid black;
+  border-color:#808080 #FFFFFF #FFFFFF #808080;
+  box-shadow:
+    inset  1px 0 0 black,  /* left */
+    inset -1px 0 0 gray,   /* right */
+    inset 0 1px 0 black,   /* top */
+    inset 0 -1px 0 gray;   /* bottom */
+}
+
+.group {
+  margin-bottom: 15px;
+}
+
+.group-title {
+  font-weight: bold;
+  font-size:14px;
+  text-align:center;
+  color: #000000;
+}
+
+.contact {
+  padding: 5px;
+}
+.status-icon{
+  height:24px;
+  width:24px;
+  vertical-align:bottom;
+  padding-right:5px;
+}
+
+.contact.online, .contact.chat, .contact.away, .contact.na, .contact.occupy, .contact.dnd {
+  color: blue;
+}
+
+.contact.offline {
+  color: red;
+}
